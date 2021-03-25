@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- This is the CS201 Web Dev 1 final. Your task is to make a responsive e-commerce site using
+  BS4 as your CSS front end framework and load products from the FakeStore API (linked below) -->
+  <!-- FakeStoreAPI end point: https://fakestoreapi.com/products -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><i class="far fa-clock"></i> Watches</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Women's</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Men's</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Unisex
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Collection</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="row">
+      <img src="images/examplebanner.jpg" alt="">
+    </div>
+  </div>
+  <div class="card-group pt-4 mt-2">
+    <div class="card pl-2 ml-2">
+      <img class="card-img-top" src="images/64950a27033ff8826b9502c05f811592.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Men's watches</h5>
+        <p class="card-text text-center">25% off</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/218-2188358_woman-watch-png-women-watch-transparent-background-png.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Ladies' watches</h5>
+        <p class="card-text text-center">25% off</p>
+      </div>
+    </div>
+    <div class="card pr-2 mr-2">
+      <img class="card-img-top" src="images/trendy-blue-lotus-watch-transparent-background-18253-1-white-leather-strap.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">50% off</h5>
+        <p class="card-text text-center">Shop now!</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="text-center pt-4 mt-2 pb-4 mb-2">New Products</h3>
+
+  <div class="products"></div>
+
+  <div class="container mt-2 pt-2 mb-2 pb-2">
+    <div class="row">
+      <div class="col-md-4 pr-2" style="background: blue; color: white;">
+        <h2 class="text-center"> <i class="fas fa-truck"></i> Fast and free delivery</h2>
+        <p class="text-center">We provide you with fast and free delivery regardless of the product size and value. Your order will be delivered in time and for free.</p>
+      </div>
+      <div class="col-md-4 pl-2 pr-2" style="background: blue; color: white;">
+        <h2 class="text-center"> <i class="fas fa-exchange-alt"></i> 100% money back guarantee</h2>
+        <p class="text-center">We offer 100% money-back guarantee within 60 days of payment. If you are not satisfied with the final product, you may return your purchase.</p>
+      </div>
+      <div class="col-md-4 pl-2" style="background: blue; color: white;">
+        <h2 class="text-center"> <i class="fas fa-wallet"></i> Safe and secure payments</h2>
+        <p class="text-center">We are committed to increase the safety and security of your payments. Helping you shop more safely and take control over your money.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="text-center pt-4 mt-2 pb-4 mb-2">Latest posts</h3>
+
+  <div class="container">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-center">Time Well Spent: Archimede Pilot Chrono</h5>
+          <p class="card-text text-center">Here at Watches, we love the big brands and some of the beautiful watches they produce year after year, but we also pride ourselves on bringing quality and affordable watches to the masses.</p>
+          <button>Read More</button>
+        </div>
+        <img class="card-img-bottom" src="images/watches_PNG101445.png" alt="Card image cap">
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-center">Edox x Extreme Sailing Series 2015</h5>
+          <p class="card-text text-center">Watches and sailboats; seems like the perfect match doesn't it? Expensive, high-end timepieces are often associated with luxury and wealth, much like owning a yacht.</p>
+          <button>Read More</button>
+        </div>
+        <img class="card-img-bottom" src="images/yBzv8m-classic-watch-hd-images-.png" alt="Card image cap">
+    </div>
+  </div>
+
+  <footer class="mt-2 pt-2">
+    <hr>
+    <p class="pl-4">© 2016 Magento Demo Store. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script src="staticcatalog.js" charset="utf-8"></script>
+</body>
+</html>
