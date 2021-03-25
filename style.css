@@ -1,0 +1,23 @@
+h1, h2, h3, nav li
+{
+  font-family: 'Kiwi Maru', serif;
+}
+
+p
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron img
+{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px)
+{
+  *
+  {
+    display: block;
+  }
+}
